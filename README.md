@@ -17,11 +17,7 @@ This is an Android application for a Hangman game. The game allows users to gues
 <br><br>
 
 ## 📹 Demo Video
-
-
 https://github.com/user-attachments/assets/d62b6c58-ce11-4d71-8be2-8a61f9ab5572
-
-
 
 ## 🚀 Installation
 1. Clone the repository:
@@ -47,4 +43,43 @@ https://github.com/user-attachments/assets/d62b6c58-ce11-4d71-8be2-8a61f9ab5572
 - **activity_main.xml**: Layout for the main activity.
 - **activity_hangman.xml**: Layout for the Hangman game activity.
 
+## 🎨 Customization
+
+### Pre-requisite Color
+Please find the brand color as `#8692f7` (Purple).
+
+Add the color in the `colors.xml` file as given:
+```xml
+<color name="purple">#8692f7</color>
+```
+
+### Download Login Background Image
+Download the login background image for free.
+<br><br>
+![image](https://github.com/user-attachments/assets/8dd61265-eae4-4858-9b5c-45b5b27d54ad)
+
+
+### Add Color under `res -> values -> colors.xml`
+You can use any color according to your app requirements. I have used our brand color `#8692f7`.
+```xml
+<color name="purple">#8692f7</color>
+```
+
+### Create `custom_edittext.xml`
+Right-click on the `drawable` folder under the `res` folder, then click on New -> Drawable Resource File.
+
+The round corners are 20dp, you can customize them as per your requirements.
+
+Type the below code:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="3dp"
+        android:color="@color/purple"/>
+    <corners
+        android:radius="20dp"/>
+</shape>
+```
 
