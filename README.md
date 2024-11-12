@@ -65,6 +65,7 @@ You can use any color according to your app requirements. I have used our brand 
 <color name="purple">#8692f7</color>
 ```
 
+
 ### Create `custom_edittext.xml`
 Right-click on the `drawable` folder under the `res` folder, then click on New -> Drawable Resource File.
 
