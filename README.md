@@ -16,6 +16,7 @@ This is an Android application for a Hangman game. The game allows users to gues
 <img align="left" alt="XML" width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xml/xml-original.svg" />
 <br><br>
 
+
 ## 📹 Demo Video
 https://github.com/user-attachments/assets/d62b6c58-ce11-4d71-8be2-8a61f9ab5572
 
